@@ -7,7 +7,7 @@ import { ref, computed, defineEmits } from "vue";
     <div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2">
       <div class="">
         <div class="lg:w-[180px] md:w-[140px] w-[80px]">
-          <img :src="'/src/assets/image/logo-alt.svg'" alt="" />
+          <img :src="'/image/logo-alt.svg'" alt="logo" />
         </div>
 
         <div
@@ -27,7 +27,7 @@ import { ref, computed, defineEmits } from "vue";
               class="flex justify-center items-center md:w-[40px] w-[30px] aspect-square lg:p-[2px] md:p-[2px] p-[2px] border border-primary rounded-full hover:bg-primary hover:bg-opacity-30"
             >
               <img
-                :src="'/src/assets/image/icons/facebook.svg'"
+                :src="'/image/icons/facebook.svg'"
                 alt="ic-facebook"
                 class=""
               />
@@ -38,7 +38,7 @@ import { ref, computed, defineEmits } from "vue";
               class="flex justify-center items-center md:w-[40px] w-[30px] aspect-square lg:p-[2px] md:p-[2px] border border-primary rounded-full hover:bg-primary hover:bg-opacity-30"
             >
               <img
-                :src="'/src/assets/image/icons/instagram.svg'"
+                :src="'/image/icons/instagram.svg'"
                 alt="ic-instagram"
                 class=""
               />
@@ -49,7 +49,7 @@ import { ref, computed, defineEmits } from "vue";
               class="flex justify-center items-center md:w-[40px] w-[30px] aspect-square lg:p-[2px] md:p-[2px] border border-primary rounded-full hover:bg-primary hover:bg-opacity-30"
             >
               <img
-                :src="'/src/assets/image/icons/youtube.svg'"
+                :src="'/image/icons/youtube.svg'"
                 alt="ic-youtube"
                 class=""
               />
@@ -117,7 +117,7 @@ import { ref, computed, defineEmits } from "vue";
           class="lg:mt-[20px] md:mt-[15px] mt-[10px] flex flex-col lg:gap-[16px] md:gap-[14px] gap-[12px]"
         >
           <div class="flex items-center lg:gap-[5px] md:gap-[5px] gap-[5px]">
-            <img :src="'/src/assets/image/icons/mail.svg'" alt="ic-mail" />
+            <img :src="'/image/icons/mail.svg'" alt="ic-mail" />
             <a
               href="mailto:Food.now@mail.com"
               class="text-[#333333] lg:text-[16px] md:text-[14px] text-[12px]"
@@ -126,7 +126,7 @@ import { ref, computed, defineEmits } from "vue";
             </a>
           </div>
           <div class="flex items-center lg:gap-[5px] md:gap-[5px] gap-[5px]">
-            <img :src="'/src/assets/image/icons/phone.svg'" alt="ic-phone" />
+            <img :src="'/image/icons/phone.svg'" alt="ic-phone" />
             <h6
               class="text-[#333333] lg:text-[16px] md:text-[14px] text-[12px]"
             >
@@ -134,10 +134,7 @@ import { ref, computed, defineEmits } from "vue";
             </h6>
           </div>
           <div class="flex items-center lg:gap-[5px] md:gap-[5px] gap-[5px]">
-            <img
-              :src="'/src/assets/image/icons/whatsapp.svg'"
-              alt="ic-whatsapp"
-            />
+            <img :src="'/image/icons/whatsapp.svg'" alt="ic-whatsapp" />
             <a
               a
               href="https://api.whatsapp.com/send?phone=08184938494"
@@ -159,10 +156,7 @@ import { ref, computed, defineEmits } from "vue";
         <div
           class="flex items-start lg:gap-[5px] md:gap-[5px] gap-[5px] lg:mt-[20px] md:mt-[15px] mt-[10px]"
         >
-          <img
-            :src="'/src/assets/image/icons/location.svg'"
-            alt="location-ic"
-          />
+          <img :src="'/image/icons/location.svg'" alt="location-ic" />
 
           <h6 class="text-[#333333] lg:text-[16px] md:text-[14px] text-[12px]">
             Jl. Raya Kerobokan Br Taman, Kuta No.98, Kerobokan Kelod, Kec. Kuta

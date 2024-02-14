@@ -76,7 +76,7 @@ const totalPrice = computed(() => {
 <template>
   <div class="">
     <header
-      class="w-full flex justify-center items-center xl:h-[540px] lg:h-[500px] md:h-[300px] h-[250px] bg-[url('/src/assets/image/hero.png')] bg-cover"
+      class="w-full flex justify-center items-center xl:h-[540px] lg:h-[500px] md:h-[300px] h-[250px] bg-[url('/image/hero.png')] bg-cover"
     >
       <h1
         class="font-bold text-primary xl:text-[80px] lg:text-[72px] md:text-[46px] text-[26px]"

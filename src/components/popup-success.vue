@@ -19,7 +19,7 @@ function closePopupSuccess() {
         <div class="flex justify-center">
           <img
             class="lg:w-[100px] md:w-[80px] w-[60px]"
-            :src="'/src/assets/image/icons/ic-success.svg'"
+            :src="'/image/icons/ic-success.svg'"
             alt="ic-success"
           />
         </div>

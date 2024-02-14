@@ -47,15 +47,10 @@ function showMobileMenu() {
     <!-- toggle button -->
     <button @click="showMobileMenu" class="lg:hidden">
       <img
-        :src="'/src/assets/image/hamburger-menu-white.svg'"
+        :src="'/image/hamburger-menu-white.svg'"
         alt="hamburger-menu"
         class="w-7 nav-mobile"
       />
-      <!-- <img
-          :src="require(`assets/image/close-button.png`)"
-          alt="hamburger-menu"
-          class="w-7 nav-mobile"
-        /> -->
     </button>
 
     <!-- End toggle button -->

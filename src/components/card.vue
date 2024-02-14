@@ -35,7 +35,7 @@ const getImageName = computed(() => {
       <div>
         <img
           class="xl:w-[120px] lg:w-[70px] md:w-[50px] w-[50px] group-hover:rotate-[15deg] transition-all duration-300"
-          :src="`/src/assets/image/pizza/${getImageName}`"
+          :src="`/image/pizza/${getImageName}`"
           alt="Cheese pizza image"
         />
       </div>
@@ -64,7 +64,7 @@ const getImageName = computed(() => {
     <!-- ribbon -->
     <img
       v-if="pizza.discount.is_active"
-      :src="'/src/assets/image/ribbon.svg'"
+      :src="'/image/ribbon.svg'"
       alt="img-ribbon"
       class="xl:w-[100px] lg:w-[70px] md:w-[50px] w-[35px] absolute top-0 right-0"
     />
