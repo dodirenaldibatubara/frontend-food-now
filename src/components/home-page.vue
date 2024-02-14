@@ -171,7 +171,7 @@ const totalPrice = computed(() => {
             class="flex flex-col lg:gap-[14px] lg:mt-[20px] md:mt-[20px] mt-[20px]"
           >
             <div
-              class="flex justify-between lg:text-[16px] md:text-[14px] text-[12px] lg:mt-[15px] md:mt-[10px] mt-[10px]"
+              class="flex justify-between lg:mt-[15px] md:mt-[10px] mt-[10px]"
             >
               <h4 v-if="selectedPizza" class="text-[#626F79]">
                 {{ selectedPizza.name }}
