@@ -14,7 +14,7 @@ function showMobileMenu() {
     class="container fixed w-full flex justify-between items-center top-0 xl:min-h-[100px] lg:min-h-[100px] md:min-h-[80px] min-h-[50px]"
   >
     <div class="lg:w-[180px] md:w-[140px] w-[80px]">
-      <img :src="'/src/assets/image/logo.svg'" alt="logo" />
+      <img :src="'/image/logo.svg'" alt="logo" />
     </div>
 
     <div class="text-white">
